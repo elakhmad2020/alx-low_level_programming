@@ -2,11 +2,6 @@
 #include <stdio.h>
 #include "holberton.h"
 
-
-
-
-
-
 /**
  * coin_count - counts the min coins needed for change
  *
@@ -47,12 +42,6 @@ return (count);
 }
 
 
-
-
-
-
-
-
 /**
  * main - prints the min num of coins to make change for an amount of money
  *
@@ -60,9 +49,6 @@ return (count);
  * @argv: argument vector
  * Return: int
  */
-
-
-
 
 
 int main(int argc, char *argv[])
