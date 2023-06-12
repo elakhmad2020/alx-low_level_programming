@@ -3,17 +3,18 @@
 /**
  * main - print name
  * @argc: int.
- * @argv: char
+ * @argv: char.
  * Return: Always 0.
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
 	for (i = 0; i < argc ; i++)
 	{
-		print("%s\n", argv[i]);
+		print("%s\n", agrv
+				[i
+				]);
 	}
-	return (0);
+	return (0)
 }
-
