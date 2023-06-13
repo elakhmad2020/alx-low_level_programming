@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print name
+ * main - print name 
  * @argc: int.
  * @argv: char.
  * Return: Always 0.
@@ -12,9 +12,8 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc ; i++)
 	{
-		print("%s\n", agrv
-				[i
-				]);
+		printf("%s\n", argv[i]);
 	}
-	return (0)
+	return (0);
 }
+
