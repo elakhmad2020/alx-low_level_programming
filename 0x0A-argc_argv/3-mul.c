@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers.
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 	
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
-	printf("%d\n", x * y);
+	printfi("%d\n", x * y);
 
 	return (0);
 }
